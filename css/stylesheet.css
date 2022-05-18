@@ -1,0 +1,49 @@
+
+/* 40 */
+body, html {
+    height: 100%;
+}
+
+/* 50 */
+body {
+    background: #dddddd;
+    color: #4c4d4d;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 154 */
+::selection {
+    background: #20c997;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* 562 */
+.bg-dark {
+    background-color: #111812  !important;
+}
+/* 875 */
+
+.side-header #main-wrapper {
+    margin-left: 260px;
+}
+
+/* 888 */
+.side-header .primary-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    background: #fff;
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.065);
+    z-index: 2;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
