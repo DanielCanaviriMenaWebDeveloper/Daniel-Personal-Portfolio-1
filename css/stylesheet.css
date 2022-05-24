@@ -59,6 +59,16 @@ body {
     background-color: #111812  !important;
 }
 
+/* 570 */
+.bg-dark-2 {
+  background-color: #343a40 !important;
+}
+
+.text-5 {
+  font-size: 21px !important;
+  font-size: 1.3125rem !important;
+}
+
 
 /* =================================== */
 /*  4. Header
@@ -70,6 +80,10 @@ body {
   transition: all 0.5s ease;
 }
 
+/* 678 */
+#header .navbar {
+    padding: 0px;
+}
 
 /* 875 */
 
@@ -93,6 +107,7 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
 }
